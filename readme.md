@@ -1,3 +1,5 @@
-## Intro to Blockchain with Ethereum, Web3j and Spring Boot: Smart Contracts  [![Twitter](https://img.shields.io/twitter/follow/piotr_minkowski.svg?style=social&logo=twitter&label=Follow%20Me)](https://twitter.com/piotr_minkowski)
+curl -X POST -H "Content-Type: application/json" -d '{"fee":10}' http://localhost:8090/contract
 
-Detailed description can be found here: [Intro to Blockchain with Ethereum, Web3j and Spring Boot: Smart Contracts](https://piotrminkowski.com/2018/07/25/intro-to-blockchain-with-ethereum-web3j-and-spring-boot-smart-contracts/) 
+curl -X POST -H "Content-Type: application/json" -d '{"fee":5}' http://localhost:8090/contract
+
+curl -X POST -H "Content-Type: application/json" -d '{"amount":1000000,"fromId":1}' http://localhost:8091/transaction
