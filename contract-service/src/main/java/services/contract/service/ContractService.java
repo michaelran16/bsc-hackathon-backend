@@ -1,4 +1,4 @@
-package pl.piomin.services.contract.service;
+package services.contract.service;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -27,8 +27,8 @@ import org.web3j.protocol.core.methods.response.EthGetBalance;
 import org.web3j.protocol.core.methods.response.EthGetTransactionCount;
 import org.web3j.protocol.core.methods.response.TransactionReceipt;
 
-import pl.piomin.services.contract.model.Contract;
-import pl.piomin.services.contract.model.Transactionfee;
+import services.contract.model.Contract;
+import services.contract.model.Transactionfee;
 
 @Service
 public class ContractService {

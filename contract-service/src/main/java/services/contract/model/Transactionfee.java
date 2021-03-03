@@ -1,4 +1,4 @@
-package pl.piomin.services.contract.model;
+package services.contract.model;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

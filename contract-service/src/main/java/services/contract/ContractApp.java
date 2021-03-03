@@ -1,4 +1,4 @@
-package pl.piomin.services.contract;
+package services.contract;
 
 import javax.annotation.PostConstruct;
 
@@ -9,7 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.web3j.protocol.Web3j;
 
-import pl.piomin.services.contract.service.ContractService;
+import services.contract.service.ContractService;
 
 @SpringBootApplication
 public class ContractApp {

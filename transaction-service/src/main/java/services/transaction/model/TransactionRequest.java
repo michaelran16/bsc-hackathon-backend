@@ -1,4 +1,4 @@
-package pl.piomin.services.transaction.model;
+package services.transaction.model;
 
 public class TransactionRequest {
 

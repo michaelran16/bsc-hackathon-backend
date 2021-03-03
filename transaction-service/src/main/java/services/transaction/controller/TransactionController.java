@@ -1,4 +1,4 @@
-package pl.piomin.services.transaction.controller;
+package services.transaction.controller;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -30,7 +30,7 @@ import org.web3j.protocol.core.methods.response.EthGetTransactionReceipt;
 import org.web3j.protocol.core.methods.response.EthSendTransaction;
 import org.web3j.protocol.core.methods.response.TransactionReceipt;
 
-import pl.piomin.services.transaction.model.TransactionRequest;
+import services.transaction.model.TransactionRequest;
 
 @RestController
 @RequestMapping("/transaction")

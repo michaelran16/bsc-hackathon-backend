@@ -1,4 +1,4 @@
-package pl.piomin.services.contract;
+package services.contract;
 
 import java.math.BigInteger;
 
@@ -21,7 +21,7 @@ import org.web3j.protocol.core.methods.response.EthGetBalance;
 import org.web3j.protocol.core.methods.response.EthGetTransactionCount;
 import org.web3j.protocol.core.methods.response.TransactionReceipt;
 
-import pl.piomin.services.contract.model.Transactionfee;
+import services.contract.model.Transactionfee;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)

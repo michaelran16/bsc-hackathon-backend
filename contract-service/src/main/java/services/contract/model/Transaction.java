@@ -1,4 +1,4 @@
-package pl.piomin.services.contract.model;
+package services.contract.model;
 
 public class Transaction {
 
